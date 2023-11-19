@@ -17,6 +17,7 @@
 		A02DD94B2B0A325B006A49EF /* hargafyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02DD94A2B0A325B006A49EF /* hargafyTests.swift */; };
 		A02DD9552B0A325B006A49EF /* hargafyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02DD9542B0A325B006A49EF /* hargafyUITests.swift */; };
 		A02DD9572B0A325B006A49EF /* hargafyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02DD9562B0A325B006A49EF /* hargafyUITestsLaunchTests.swift */; };
+		A02DD9652B0A32B4006A49EF /* Turbo in Frameworks */ = {isa = PBXBuildFile; productRef = A02DD9642B0A32B4006A49EF /* Turbo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A02DD9652B0A32B4006A49EF /* Turbo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +89,7 @@
 				A02DD92E2B0A3256006A49EF /* Products */,
 			);
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		A02DD92E2B0A3256006A49EF /* Products */ = {
 			isa = PBXGroup;
@@ -146,6 +149,9 @@
 			dependencies = (
 			);
 			name = hargafy;
+			packageProductDependencies = (
+				A02DD9642B0A32B4006A49EF /* Turbo */,
+			);
 			productName = hargafy;
 			productReference = A02DD92D2B0A3256006A49EF /* hargafy.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +224,9 @@
 				Base,
 			);
 			mainGroup = A02DD9242B0A3256006A49EF;
+			packageReferences = (
+				A02DD9632B0A32B4006A49EF /* XCRemoteSwiftPackageReference "turbo-ios" */,
+			);
 			productRefGroup = A02DD92E2B0A3256006A49EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -608,6 +617,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A02DD9632B0A32B4006A49EF /* XCRemoteSwiftPackageReference "turbo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hotwired/turbo-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A02DD9642B0A32B4006A49EF /* Turbo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A02DD9632B0A32B4006A49EF /* XCRemoteSwiftPackageReference "turbo-ios" */;
+			productName = Turbo;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A02DD9392B0A3256006A49EF /* hargafy.xcdatamodeld */ = {

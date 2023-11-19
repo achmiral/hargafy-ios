@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Turbo",
+        "repositoryURL": "https://github.com/hotwired/turbo-ios",
+        "state": {
+          "branch": null,
+          "revision": "69ec24c1b132da467da9c388c2ac595ee9e624f6",
+          "version": "7.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
