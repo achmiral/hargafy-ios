@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A02DD9312B0A3256006A49EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02DD9302B0A3256006A49EF /* AppDelegate.swift */; };
+		A02DD9332B0A3256006A49EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02DD9322B0A3256006A49EF /* SceneDelegate.swift */; };
+		A02DD9352B0A3256006A49EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02DD9342B0A3256006A49EF /* ViewController.swift */; };
+		A02DD9382B0A3256006A49EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02DD9362B0A3256006A49EF /* Main.storyboard */; };
+		A02DD93B2B0A3256006A49EF /* hargafy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A02DD9392B0A3256006A49EF /* hargafy.xcdatamodeld */; };
+		A02DD93D2B0A325B006A49EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02DD93C2B0A325B006A49EF /* Assets.xcassets */; };
+		A02DD9402B0A325B006A49EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02DD93E2B0A325B006A49EF /* LaunchScreen.storyboard */; };
+		A02DD94B2B0A325B006A49EF /* hargafyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02DD94A2B0A325B006A49EF /* hargafyTests.swift */; };
+		A02DD9552B0A325B006A49EF /* hargafyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02DD9542B0A325B006A49EF /* hargafyUITests.swift */; };
+		A02DD9572B0A325B006A49EF /* hargafyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02DD9562B0A325B006A49EF /* hargafyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A02DD9472B0A325B006A49EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A02DD9252B0A3256006A49EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A02DD92C2B0A3256006A49EF;
+			remoteInfo = hargafy;
+		};
+		A02DD9512B0A325B006A49EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A02DD9252B0A3256006A49EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A02DD92C2B0A3256006A49EF;
+			remoteInfo = hargafy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A02DD92D2B0A3256006A49EF /* hargafy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hargafy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02DD9302B0A3256006A49EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A02DD9322B0A3256006A49EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A02DD9342B0A3256006A49EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A02DD9372B0A3256006A49EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A02DD93A2B0A3256006A49EF /* hargafy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hargafy.xcdatamodel; sourceTree = "<group>"; };
+		A02DD93C2B0A325B006A49EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A02DD93F2B0A325B006A49EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A02DD9412B0A325B006A49EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02DD9462B0A325B006A49EF /* hargafyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hargafyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02DD94A2B0A325B006A49EF /* hargafyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hargafyTests.swift; sourceTree = "<group>"; };
+		A02DD9502B0A325B006A49EF /* hargafyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hargafyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02DD9542B0A325B006A49EF /* hargafyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hargafyUITests.swift; sourceTree = "<group>"; };
+		A02DD9562B0A325B006A49EF /* hargafyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hargafyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A02DD92A2B0A3256006A49EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02DD9432B0A325B006A49EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02DD94D2B0A325B006A49EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A02DD9242B0A3256006A49EF = {
+			isa = PBXGroup;
+			children = (
+				A02DD92F2B0A3256006A49EF /* hargafy */,
+				A02DD9492B0A325B006A49EF /* hargafyTests */,
+				A02DD9532B0A325B006A49EF /* hargafyUITests */,
+				A02DD92E2B0A3256006A49EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A02DD92E2B0A3256006A49EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A02DD92D2B0A3256006A49EF /* hargafy.app */,
+				A02DD9462B0A325B006A49EF /* hargafyTests.xctest */,
+				A02DD9502B0A325B006A49EF /* hargafyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A02DD92F2B0A3256006A49EF /* hargafy */ = {
+			isa = PBXGroup;
+			children = (
+				A02DD9302B0A3256006A49EF /* AppDelegate.swift */,
+				A02DD9322B0A3256006A49EF /* SceneDelegate.swift */,
+				A02DD9342B0A3256006A49EF /* ViewController.swift */,
+				A02DD9362B0A3256006A49EF /* Main.storyboard */,
+				A02DD93C2B0A325B006A49EF /* Assets.xcassets */,
+				A02DD93E2B0A325B006A49EF /* LaunchScreen.storyboard */,
+				A02DD9412B0A325B006A49EF /* Info.plist */,
+				A02DD9392B0A3256006A49EF /* hargafy.xcdatamodeld */,
+			);
+			path = hargafy;
+			sourceTree = "<group>";
+		};
+		A02DD9492B0A325B006A49EF /* hargafyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A02DD94A2B0A325B006A49EF /* hargafyTests.swift */,
+			);
+			path = hargafyTests;
+			sourceTree = "<group>";
+		};
+		A02DD9532B0A325B006A49EF /* hargafyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A02DD9542B0A325B006A49EF /* hargafyUITests.swift */,
+				A02DD9562B0A325B006A49EF /* hargafyUITestsLaunchTests.swift */,
+			);
+			path = hargafyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A02DD92C2B0A3256006A49EF /* hargafy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02DD95A2B0A325B006A49EF /* Build configuration list for PBXNativeTarget "hargafy" */;
+			buildPhases = (
+				A02DD9292B0A3256006A49EF /* Sources */,
+				A02DD92A2B0A3256006A49EF /* Frameworks */,
+				A02DD92B2B0A3256006A49EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hargafy;
+			productName = hargafy;
+			productReference = A02DD92D2B0A3256006A49EF /* hargafy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A02DD9452B0A325B006A49EF /* hargafyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02DD95D2B0A325B006A49EF /* Build configuration list for PBXNativeTarget "hargafyTests" */;
+			buildPhases = (
+				A02DD9422B0A325B006A49EF /* Sources */,
+				A02DD9432B0A325B006A49EF /* Frameworks */,
+				A02DD9442B0A325B006A49EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A02DD9482B0A325B006A49EF /* PBXTargetDependency */,
+			);
+			name = hargafyTests;
+			productName = hargafyTests;
+			productReference = A02DD9462B0A325B006A49EF /* hargafyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A02DD94F2B0A325B006A49EF /* hargafyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02DD9602B0A325B006A49EF /* Build configuration list for PBXNativeTarget "hargafyUITests" */;
+			buildPhases = (
+				A02DD94C2B0A325B006A49EF /* Sources */,
+				A02DD94D2B0A325B006A49EF /* Frameworks */,
+				A02DD94E2B0A325B006A49EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A02DD9522B0A325B006A49EF /* PBXTargetDependency */,
+			);
+			name = hargafyUITests;
+			productName = hargafyUITests;
+			productReference = A02DD9502B0A325B006A49EF /* hargafyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A02DD9252B0A3256006A49EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A02DD92C2B0A3256006A49EF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A02DD9452B0A325B006A49EF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A02DD92C2B0A3256006A49EF;
+					};
+					A02DD94F2B0A325B006A49EF = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A02DD92C2B0A3256006A49EF;
+					};
+				};
+			};
+			buildConfigurationList = A02DD9282B0A3256006A49EF /* Build configuration list for PBXProject "hargafy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A02DD9242B0A3256006A49EF;
+			productRefGroup = A02DD92E2B0A3256006A49EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A02DD92C2B0A3256006A49EF /* hargafy */,
+				A02DD9452B0A325B006A49EF /* hargafyTests */,
+				A02DD94F2B0A325B006A49EF /* hargafyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A02DD92B2B0A3256006A49EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02DD9402B0A325B006A49EF /* LaunchScreen.storyboard in Resources */,
+				A02DD93D2B0A325B006A49EF /* Assets.xcassets in Resources */,
+				A02DD9382B0A3256006A49EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02DD9442B0A325B006A49EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02DD94E2B0A325B006A49EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A02DD9292B0A3256006A49EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02DD9352B0A3256006A49EF /* ViewController.swift in Sources */,
+				A02DD9312B0A3256006A49EF /* AppDelegate.swift in Sources */,
+				A02DD93B2B0A3256006A49EF /* hargafy.xcdatamodeld in Sources */,
+				A02DD9332B0A3256006A49EF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02DD9422B0A325B006A49EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02DD94B2B0A325B006A49EF /* hargafyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02DD94C2B0A325B006A49EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02DD9552B0A325B006A49EF /* hargafyUITests.swift in Sources */,
+				A02DD9572B0A325B006A49EF /* hargafyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A02DD9482B0A325B006A49EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A02DD92C2B0A3256006A49EF /* hargafy */;
+			targetProxy = A02DD9472B0A325B006A49EF /* PBXContainerItemProxy */;
+		};
+		A02DD9522B0A325B006A49EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A02DD92C2B0A3256006A49EF /* hargafy */;
+			targetProxy = A02DD9512B0A325B006A49EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A02DD9362B0A3256006A49EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02DD9372B0A3256006A49EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A02DD93E2B0A325B006A49EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02DD93F2B0A325B006A49EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A02DD9582B0A325B006A49EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A02DD9592B0A325B006A49EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A02DD95B2B0A325B006A49EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2SJ4WA4SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hargafy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = achmiral.id.hargafy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A02DD95C2B0A325B006A49EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2SJ4WA4SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = hargafy/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = achmiral.id.hargafy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A02DD95E2B0A325B006A49EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2SJ4WA4SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = achmiral.id.hargafyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hargafy.app/hargafy";
+			};
+			name = Debug;
+		};
+		A02DD95F2B0A325B006A49EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2SJ4WA4SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = achmiral.id.hargafyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hargafy.app/hargafy";
+			};
+			name = Release;
+		};
+		A02DD9612B0A325B006A49EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2SJ4WA4SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = achmiral.id.hargafyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hargafy;
+			};
+			name = Debug;
+		};
+		A02DD9622B0A325B006A49EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J2SJ4WA4SY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = achmiral.id.hargafyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hargafy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A02DD9282B0A3256006A49EF /* Build configuration list for PBXProject "hargafy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02DD9582B0A325B006A49EF /* Debug */,
+				A02DD9592B0A325B006A49EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02DD95A2B0A325B006A49EF /* Build configuration list for PBXNativeTarget "hargafy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02DD95B2B0A325B006A49EF /* Debug */,
+				A02DD95C2B0A325B006A49EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02DD95D2B0A325B006A49EF /* Build configuration list for PBXNativeTarget "hargafyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02DD95E2B0A325B006A49EF /* Debug */,
+				A02DD95F2B0A325B006A49EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02DD9602B0A325B006A49EF /* Build configuration list for PBXNativeTarget "hargafyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02DD9612B0A325B006A49EF /* Debug */,
+				A02DD9622B0A325B006A49EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A02DD9392B0A3256006A49EF /* hargafy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A02DD93A2B0A3256006A49EF /* hargafy.xcdatamodel */,
+			);
+			currentVersion = A02DD93A2B0A3256006A49EF /* hargafy.xcdatamodel */;
+			path = hargafy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A02DD9252B0A3256006A49EF /* Project object */;
+}
